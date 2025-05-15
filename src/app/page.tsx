@@ -17,6 +17,7 @@ export default function Home() {
       <SignedOut>
         <div className="flex flex-col gap-4 items-center">
           <p className="text-lg mb-4 text-center text-gray-600">アンケートに回答するにはログインしてください</p>
+          <p className="text-sm text-gray-500 mb-4">LINE または Apple ID でログインできます</p>
           <div className="flex gap-4">
             <SignInButton mode="modal" />
             <SignUpButton mode="modal" />
